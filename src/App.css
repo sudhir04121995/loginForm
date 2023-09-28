@@ -1,16 +1,41 @@
-.App {
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+* .App {
   text-align: center;
+  display: flex;
+  background-color: #45a049 ;
+
+}
+ 
+.icon {
+  padding: 10px;
+  min-width: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ .container {
+  text-align:justify;
+  padding: 104px;
+  min-width: 40px;
+  display: flex;
+  justify-content: center;
+}  
+#checkbox{
+color: rgb(170, 43, 70);
 }
 
-@media (prefers-reduced-motion: no-preference) {
+ @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
+  }  color: rgb(251, 253, 255);
+}
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }  color: rgb(251, 253, 255);
 }
 
 .App-header {
@@ -35,4 +60,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}  */
